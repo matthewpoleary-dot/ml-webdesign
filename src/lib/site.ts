@@ -6,7 +6,8 @@ export const site = {
   email: "matthewpoleary@gmail.com",
   location: "Dublin, Ireland",
   socials: {
-    linkedin: "https://www.linkedin.com/in/matthew-o-leary-135436332",
+    linkedin: "https://www.linkedin.com/company/ml-web-design1/",
+    linkedinPersonal: "https://www.linkedin.com/in/matthew-o-leary-135436332",
   },
   urls: {
     home: "/",

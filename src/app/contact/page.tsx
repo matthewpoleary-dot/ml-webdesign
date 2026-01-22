@@ -54,6 +54,18 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
               Or reach out directly
             </h2>
+            <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+              Connect with us on{" "}
+              <a
+                href={site.socials.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-gray-900 underline transition-colors hover:text-gray-700 dark:text-white dark:hover:text-gray-300"
+              >
+                LinkedIn
+              </a>
+              .
+            </p>
             <div className="mt-6 space-y-4">
               <a
                 href={`mailto:${site.email}`}
